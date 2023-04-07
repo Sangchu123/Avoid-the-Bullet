@@ -16,4 +16,20 @@ public class Bullet : MonoBehaviour
         // 3초 뒤 자신의 게임 오브젝트 파괴
         Destroy(gameObject, 3f);
     }
+
+    private void OnTriggerEnter(Collider other) {
+        
+        if (other.tag == "Player")
+        {
+            // PlayerController 찾아오기
+            PlayerController playerController = other.GetComponent<PlayerController>();
+
+            // playerController를 가져왔다면
+            if (playerController != null) {
+
+                // Die 메서드 실행
+                playerController.Die();
+            }
+        }
+    }
 }
