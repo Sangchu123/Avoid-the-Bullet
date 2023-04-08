@@ -1,3 +1,4 @@
-# Team-Ingredient-Unity-3D
-상추의 유니티 3D 연습용 리포지토리
-가끔씩 릴리즈함
+# Avoid the Bullet
+Avoid the Bullet 깃허브
+살면서 처음 빌드해본 게임임
+퀄리티 낮아도 양해좀
