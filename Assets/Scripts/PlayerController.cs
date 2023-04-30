@@ -6,7 +6,7 @@ public class PlayerController : MonoBehaviour
 {
 
     private Rigidbody PRigidbody; // 컴포넌트
-    public float speed = 8f; // 속도
+    public float speed = 9f; // 속도
 
     void Start() {
         PRigidbody= GetComponent<Rigidbody>();
