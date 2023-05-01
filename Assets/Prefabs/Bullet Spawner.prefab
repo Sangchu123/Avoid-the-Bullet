@@ -112,5 +112,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPerfab: {fileID: 4155771063808578060, guid: 2cdf74e2e26d5c64695a2f42a7d13ec8, type: 3}
-  spawnRateMin: 0.5
+  spawnRateMin: 0.8
   spawnRateMax: 3
